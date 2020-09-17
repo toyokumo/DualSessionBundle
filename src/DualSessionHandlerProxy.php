@@ -1,6 +1,6 @@
 <?php
 
-namespace Toyokumo\SessionBundle;
+namespace Toyokumo\DualSessionBundle;
 
 use Exception;
 use SessionHandlerInterface;
@@ -12,7 +12,7 @@ use Symfony\Component\HttpFoundation\Session\Storage\Proxy\SessionHandlerProxy;
  * Extension of SessionHandlerProxy to switch handlers on connection failure
  * (https://symfony.com/doc/current/session/proxy_examples.html)
  *
- * @package SessionBundle
+ * @package DualSessionBundle
  */
 class DualSessionHandlerProxy extends SessionHandlerProxy
 {
