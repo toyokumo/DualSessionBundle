@@ -12,6 +12,5 @@
   },
   "autoload": {
     "psr-4": { "Toyokumo\\DualSessionBundle": "src/" }
-  },
-  "target-dir": "Toyokumo/DualSessionBundle"
+  }
 }
